@@ -1,9 +1,11 @@
-terraform {
-  backend "remote" {
-    organization = "didox"
+# terraform {
+# backend "remote" {
+#    organization = "didox"
+#
+#    workspaces {
+#      name = "TerraformLabTreinamento"
+#    }
+#  }
+# }
 
-    workspaces {
-      name = "TerraformLabTreinamento"
-    }
-  }
-}
+

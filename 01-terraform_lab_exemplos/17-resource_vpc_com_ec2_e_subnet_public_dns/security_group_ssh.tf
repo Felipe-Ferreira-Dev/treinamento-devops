@@ -30,10 +30,10 @@ resource "aws_security_group" "allow_ssh_terraform" {
       protocol         = "-1"
       cidr_blocks      = ["0.0.0.0/0"]
       ipv6_cidr_blocks = ["::/0"],
-      description: "Libera dados da rede interna"
-      prefix_list_ids  = []
-      security_groups  = []
-      self             = false
+      description : "Libera dados da rede interna"
+      prefix_list_ids = []
+      security_groups = []
+      self            = false
     }
   ]
 
